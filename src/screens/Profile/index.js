@@ -91,15 +91,6 @@ class Profile extends React.Component {
         }
     }
 
-    _removelikeButton = () => {
-        let { likedData, profileData } = this.state;
-        let new_state = Object.assign({}, likedData);
-        alert(JSON.stringify(new_state))
-        // new_state.map(item=>item.isLikedIconVisible=false)
-        // this.setState({likedData:new_state})
-        //this.setState({ likedData })
-    }
-
     _onSelectSwitch = (value, index) => {
         let { profileData, likedData } = this.state;
         profileData[index].isLiked = value;
@@ -136,7 +127,8 @@ class Profile extends React.Component {
                     <Text style={styles.itemTitleStyle}>
                         {item.title}</Text>
                     {
-                        item.isLikedIconVisible && <Switch
+                        item.isLikedIconVisible &&
+                         <Switch
                             style={{ position: 'absolute', right: 0 }}
                             trackColor={{ false: "#0000001A", true: "#00000066" }}
                             thumbColor={isEnabled ? "#000" : "#DCDCDC"}
@@ -155,7 +147,6 @@ class Profile extends React.Component {
         const { isLoading } = this.props
         return (
             <View style={styles.mainContainerStyle}>
-                <StatusBar backgroundColor='blue' barStyle='light-content' />
                 <Header text="Profile" />
                 <ScrollView>
                     <CardComponent style={styles.cardStyle} cornerRadius={10}>
