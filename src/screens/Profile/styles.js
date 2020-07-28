@@ -36,7 +36,8 @@ const styles = StyleSheet.create({
     alignSelf: 'center'
   },
   itemTitleStyle:{
-    marginLeft: 10, fontSize: 16,
+    marginLeft: 10, 
+    fontSize: 16,
     fontWeight: 'bold',
 }
 });

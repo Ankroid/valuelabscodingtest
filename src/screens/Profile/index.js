@@ -40,14 +40,18 @@ class Profile extends React.Component {
                 },
                 {
                     "title": "Projects",
-                    "details": 'A Mobile & Web Application Developer with nearly 6 years of experience Software Development, Application Maintenance & Support and Project Execution. 3+ year experience in Mobile application Development and 2.5+ years in React Native development',
+                    "details": `1.	Hoptrend\nThis is social media app which provide you the platform to create your trend. To follow some any trend you have to “Hop on” that trend, it’s the way to subscribe the trend. You will get every notification related to that trend. You can share your video, images to create a trend.`+
+                    `\n\n2.	E-Cart\nIt is a complete shopping cart app which give you real experience of online shopping. It is easy administration app that gives you full control over category, brands, product, orders, roles, accounts and settings. You can search an item from the list of products. You can add edit and delete items to backend and customer will able to browse, add and delete items from their cart as well as purchase it is using PayPal.`+
+                    `\n\n3. Fitness Love\nThis app is basically for fitness lover who wants to transform their body. New User can Sign up through Facebook and Email. Then they must choose their goal. They have to fill all their required details. User can monitor their calories, can follow the workout plans. User can record their training performances`+
+                    `\n\n4. Trip Travel\nThis app allow user to create their own new trip. The user must select the trip location and adds the location info into news feed using Google Maps Location. User clicks on Save, which creates a new trip and sends it to the app server and it is stored in a database (news feed ). User can add and manage the trip destination. User can select one of the trips from the list of trips.  Can add friends after selecting the trip.`+
+                    `\n\n5. Service App\nThrough the app, you can book home repairs and maintenance services, such as carpenter, electrician and plumber. You can book a wide range of services from home construction to home maintenance home to home cleaning and appliance repairs delivered by well-qualified professionals from anywhere, anytime.`,
                     "image": 'library-books',
                     "isLiked": false,
                     "isLikedIconVisible": true
                 },
                 {
                     "title": "Education",
-                    "details": 'A Mobile & Web Application Developer with nearly 6 years of experience Software Development, Application Maintenance & Support and Project Execution. 3+ year experience in Mobile application Development and 2.5+ years in React Native development',
+                    "details": 'B.Tech (IT) JB Institute of technology, Dehradun, in 20013. 12th  S.G.R.R Public School, CBSE Board, in 2009. 10th St. Joseph Convent School, ICSE Board, in 2007.',
                     "image": 'library-books',
                     "isLiked": false,
                     "isLikedIconVisible": true
